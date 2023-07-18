@@ -533,12 +533,6 @@ img {
     position: relative;
 }
 
-.card-li:hover,
-.card-li:focus {
-    border: 1px solid var(--logo-down-cl);
-    background-color: var(--main-background-cl);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
 .container-portfolio {
     padding: 32px 16px;
     border: 1px solid var(--border-clr);
@@ -576,7 +570,6 @@ img {
 
 .footer {
     padding: 100px 0;
-    position: relative;
 
     background-color: var(--logo-up-nav-cl);
     text-align: left;
@@ -585,7 +578,7 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    
 }
 
 .footer-logo-text {
@@ -604,9 +597,11 @@ img {
 }
 
 .footer-subtitle {
-    position: absolute;
-    top: 100px;
-    left: 540px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-width: 96px;
+    height: 24px;
 
     color: var(--main-background-cl);
     font-size: 16px;
@@ -622,15 +617,13 @@ img {
     margin-bottom: 16px;
     padding-top: 0;
     padding-bottom: 0;
-    margin-right: 0;
 }
 
 .footer-social-icons {
     position: absolute;
-    top: 140px;
-    left: 540px;
 
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
@@ -646,11 +639,9 @@ img {
 }
 
 .footer-icons-container {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
-    gap: 16px;
     flex-direction: row;
 }
 
