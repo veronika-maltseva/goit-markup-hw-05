@@ -985,6 +985,12 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-checkbox:checked {
+    color: var(--active-link-cl);
+    border: none;
+    fill: var(--logo-down-cl)
+}
+
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
     border: none;
     background-color: var(--active-link-cl);
@@ -1000,6 +1006,7 @@ img {
 }
 
 .modal-form-agreement-desc {
+    display: flex;
     user-select: none;
 
     width: 338px;
@@ -1020,6 +1027,10 @@ img {
 .modal-form-link {
     text-decoration: underline;
     color: var(--main-logo-cl); 
+}
+
+.form-comment {
+    margin-bottom: 16px;
 }
 
 .send-btn {
