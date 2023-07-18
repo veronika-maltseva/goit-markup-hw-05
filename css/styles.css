@@ -597,7 +597,7 @@ img {
 }
 
 .footer-subtitle {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-content: center;
     min-width: 96px;
@@ -628,7 +628,6 @@ img {
     justify-content: center;
     flex-shrink: 0;
     gap: 16px;
-    flex-direction: row;
 }
 
 .footer-icon-li {
@@ -660,6 +659,68 @@ img {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
     background-color: var(--green-blue-cl);
+}
+
+.subscribe-form {
+}
+
+.subscribe-form-label {
+}
+
+
+.footer-subscribe-desk {
+    min-width: 75px;
+    height: 24px;
+
+    color: var(--main-background-cl);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+}
+
+.subscribe-form-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--main-background-cl);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transform: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+
+.subscribe-form-input:focus {
+    border-color: var(--main-logo-cl);
+    color: var(--main-background-cl);
+}
+
+.subscribe-form-input::placeholder {
+    width: 36px;
+    height: 24px;
+    color: var(--main-background-cl);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2,0;
+    letter-spacing: 0.48px;
+}
+
+.subscribe-form-icon {
+    fill: var(--main-background-cl);
+}
+
+.subscribe-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    gap: 16px;
 }
 
 .overlay-card {
