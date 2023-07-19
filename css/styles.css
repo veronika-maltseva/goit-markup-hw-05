@@ -631,7 +631,6 @@ img {
 }
 
 .footer-icon-li {
-
 }
 
 .footer-svg {
@@ -705,7 +704,6 @@ img {
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
 }
 
 .subscribe-form-input:focus {
@@ -917,10 +915,6 @@ img {
     position: relative;
 }
 
-.modal-form-input:focus {
-    border-color: var(--main-logo-cl);
-}
-
 .modal-form-input:focus + .modal-form-icon {
     fill: var(--main-logo-cl);
 }
@@ -1030,7 +1024,6 @@ img {
     display: flex;
     user-select: none;
 
-    
     color: var(--main-grey-cl);
     font-size: 12px;
     font-weight: 400;
