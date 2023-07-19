@@ -718,6 +718,7 @@ img {
 .subscribe-form-icon {
     fill: var(--main-background-cl);
     flex-shrink: 0;
+    margin-left: 16px;
 }
 
 .subscribe-btn {
@@ -725,7 +726,7 @@ img {
     align-items: center;
     justify-content: center;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     gap: 16px;
 
